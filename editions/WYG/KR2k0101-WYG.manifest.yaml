@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR2k0101/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR2k0101/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金鰲退食筆記
+  date: '2015-08-24 22:45:33.072466'
+  source:
+    repository: kanripo
+    path: KR2k0101
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0101_000-WYG.yaml, hash: 'sha256:e41b0509fdf4ab9d7a5f04a8b7818e1fe1418a5ce6c178b118759e4bf719401c'}
+  - {seq: 1, filename: KR2k0101_001-WYG.yaml, hash: 'sha256:798303b74a73530dd4e51f2dc26aedcd8e851d36828d4a544e5fb0bc03d69d80'}
+  - {seq: 2, filename: KR2k0101_002-WYG.yaml, hash: 'sha256:79bec859a9105fe855e3263a929b82fd8aa6ea0dd8b71470de7d314b1b585969'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0101_000-WYG.markers.yaml, hash: 'sha256:1046ab62bb1a1b9309953274b858b701d21966ef6fd53f5aad12567d2d36537b'}
+  - {seq: 1, role: markers, filename: assets/KR2k0101_001-WYG.markers.yaml, hash: 'sha256:8bf78d74e92836f53715ff3454c8efd1c6daf65367cc815bbb0bd41ef353e9c9'}
+  - {seq: 2, role: markers, filename: assets/KR2k0101_002-WYG.markers.yaml, hash: 'sha256:ef7d919eaff01172f49ea7b4b17310a8272d146f940fee78693cb29a5b1076b0'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0101_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 366
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2k0101_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8964
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2k0101_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 8312
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:55936854cf598eaf8d3e38bec32b9329cd59b422f0dfc9d1e83e5fb87fd2d1eb
